@@ -41,7 +41,7 @@ const PlatformDetails = () => {
             className="relative"
           >
             <div className="glass rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
-              <img src="/konfersi_metocean_analytics_1777658375172.png" alt="Metocean Analytics" className="w-full" />
+              <img src={`${import.meta.env.BASE_URL}konfersi_metocean_analytics_1777658375172.png`} alt="Metocean Analytics" className="w-full" />
             </div>
             <div className="absolute -bottom-6 -right-6 glass p-6 rounded-xl border border-cyan/20 hidden md:block">
               <div className="text-cyan font-bold text-2xl mb-1">99.8%</div>
@@ -148,7 +148,7 @@ const PlatformDetails = () => {
             viewport={{ once: true }}
           >
             <div className="glass rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
-              <img src="/konfersi_risk_intelligence_1777658398915.png" alt="Risk Intelligence" className="w-full" />
+              <img src={`${import.meta.env.BASE_URL}konfersi_risk_intelligence_1777658398915.png`} alt="Risk Intelligence" className="w-full" />
             </div>
           </motion.div>
         </div>

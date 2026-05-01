@@ -56,7 +56,7 @@ const Hero = () => {
           <div className="glass rounded-2xl p-2 md:p-4 border border-white/10 shadow-2xl shadow-cyan/10">
             <div className="relative rounded-xl overflow-hidden aspect-[16/9] border border-white/5">
                <img 
-                src="/konfersi_hero_dashboard_1777658326269.png" 
+                src={`${import.meta.env.BASE_URL}konfersi_hero_dashboard_1777658326269.png`} 
                 alt="Konfersi Intelligence Dashboard" 
                 className="w-full h-full object-cover"
               />
